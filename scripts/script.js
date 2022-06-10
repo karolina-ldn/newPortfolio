@@ -16,7 +16,20 @@ function pageTransition(){
     }
     // section active class
     allSections.addEventListener("click", (e) => {
-        
+        const id = e.target.dataset.id;
+        if (id) {
+            // remove selected from the other btns
+            secBtns.forEach((btn) =>{
+                btn.classList.remove("active")
+            })
+            e.target.classList.add("active")
+
+            // hide other sections
+            sections.forEach((section)=>{
+                section.classList.remove("active")
+            })
+        }
+
     })
 }
 
