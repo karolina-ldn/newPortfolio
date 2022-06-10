@@ -6,18 +6,19 @@
 }
 
 :root{
-    --color-primary: #10121a;
-    --color-secondary: rgb(147, 204, 114);
+    --color-primary: #301536;
+    --color-secondary: rgb(226, 88, 226);
     --color-white: white;
     --color-black: black;
     --color-grey0: rgb(228, 218, 218);
-    --color-grey-01:rgb(197, 194, 194);
-    --color-grey-02: rgb(158, 157, 157);
+    --color-grey-01:rgb(185, 182, 182);
+    --color-grey-02: rgb(192, 188, 188);
     --color-grey-03: grey;
-    --color-grey-04: rgb(97, 96, 96);
+    --color-grey-04: rgb(85, 84, 84);
     --color-grey-05: rgb(63, 62, 62);
     --color-grey-06: rgb(32, 32, 32);
     --br-sm-2: 14px;
+    --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
 }
 
 body{
@@ -95,11 +96,29 @@ section{
     justify-content: center;
     transform: translateY(-50%);
 } 
-    .control{
-        padding: 1rem;
-        cursor: pointer;
-        background-color: var(--color-grey-04);
-        width: 55px;
-        height: 55px;
-    }
+.active-btn{
+    background-color: var(--color-secondary) !important;
+    transition: all .4s ease-in-out;
+}
 
+.active-btn i{
+    color: var(--color-white) !important;
+}
+.control{
+    padding: 1rem;
+    cursor: pointer;
+    background-color: var(--color-grey-04);
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: .7rem 0;
+    box-shadow: var(--box-shadow-1);
+}
+
+.control i{
+    font-size: 1.2rem;
+    color: var(--color-grey-02);
+    pointer-events:none;
+    }
