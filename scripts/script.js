@@ -14,6 +14,10 @@ function pageTransition(){
             this.className += " active-btn";
         })
     }
+    // section active class
+    allSections.addEventListener("click", (e) => {
+        
+    })
 }
 
 pageTransition();
