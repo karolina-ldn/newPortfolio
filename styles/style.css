@@ -150,10 +150,24 @@ section{
 
 .header-content{
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100%;
+    font-size: 0.8rem;
+}
+
+.left-header{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.h-shape{
+    transition: all .4s ease-in-out;
+
 }
 
 img{
-    width: 40%;
+    width: 90%;
     height: auto;
     border-radius: 50%;
 }
