@@ -209,4 +209,7 @@ img:hover{
     justify-content: center;
 }
 
+.name span{
+    color: var(--color-secondary);
+}
 
