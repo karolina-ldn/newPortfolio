@@ -40,10 +40,11 @@ header{
     width: 100vh;
     color: var(--color-white);
     overflow: hidden;
-    
-
 }
 
+header h2{
+    font-size: 1rem;
+}
 
 
 section{
@@ -158,7 +159,7 @@ section{
 .left-header{
     display: flex;
     align-items: center;
-    position: relative;
+    /* position: relative; */
 }
 
 .h-shape{
@@ -170,18 +171,21 @@ section{
     left: 0;
     top: 0;
     z-index: -1;
-    clip-path: polygon(0 15%, 57% 15%, 100% 90%, 0 90%);
+    clip-path: polygon(0 0, 20% 0, 50% 100%, 0 100%);
+    
 
 }
 
 .image{
     border-radius: var(--br-sm-2);
-    height: 60%;
-    width: 70%;
-    margin-left: 4rem;
+    /* height: 60%;
+    width: 70%;*/
+    margin-left: -4rem;
     background-color: var(--color-grey-04);
     text-align: center;
     transition: all .4s ease-in-out;
+    margin-right: 6rem;
+  
 }
 
 img{
@@ -209,6 +213,13 @@ img:hover{
     justify-content: center;
 }
 
+.right-header p{
+    line-height: 2.2rem;
+}
+
+.name{
+    font-size: 1.4rem;
+}
 .name span{
     color: var(--color-secondary);
 }
