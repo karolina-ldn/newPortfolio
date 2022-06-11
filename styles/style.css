@@ -179,7 +179,7 @@ section{
     height: 60%;
     width: 70%;
     margin-left: 4rem;
-    background-color: var(--color-grey-03);
+    background-color: var(--color-grey-04);
     text-align: center;
     transition: all .4s ease-in-out;
 }
@@ -200,6 +200,13 @@ img{
 }
 
 img:hover{
-    filter: grayscale(0);
-                    
+    filter: grayscale(0);            
 }
+
+.right-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
