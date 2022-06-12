@@ -71,8 +71,7 @@ section{
 .sec2{
     display: none;
     transform: translateY(0) scale(1);
-    background-color: pink;
-}
+    }
 
 .sec3{
     display: none;
@@ -220,6 +219,8 @@ img:hover{
 .name span{
     color: var(--color-secondary);
 }
+
+/* components */
 
 .main-btn{
     border-radius: 30px;
