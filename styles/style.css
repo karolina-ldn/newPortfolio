@@ -62,7 +62,6 @@ section{
     transition: all .4s ease-in-out;
     background-color: var(--color-primary);
 }
-
 .sec1{
     display: none;
     transform: translateY(0) scale(1);
@@ -216,7 +215,7 @@ img:hover{
     -webkit-animation: mainFadeIn 2s forwards;
     -o-animation: mainFadeIn 2s forwards;
     animation: mainFadeIn 2s forwards;
-    animation-delay: 1.6s;
+    animation-delay: 1s;
     opacity: 0;
 }
 
@@ -308,5 +307,5 @@ img:hover{
     z-index: -1;
     transform: translate(-50%,-50%);
     font-weight: 800;
-    font-size: 4rem;
+    font-size: 3rem;
 }
