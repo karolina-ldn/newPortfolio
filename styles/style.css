@@ -327,7 +327,7 @@ img:hover{
 .level
 	{
 		
-		width: 100%;
+		width: 0%;
 		height: 15px;
 		border-radius: 8px;
         background-color: var(--color-secondary);
@@ -376,3 +376,54 @@ img:hover{
         /* background-color: var(--color-grey-05); */
         font-size: 0.8rem;
 	}
+
+    #html{
+        animation: html-fill 3s forwards;
+        animation-delay: 1s;
+    }
+
+    @keyframes html-fill {
+        100%{
+            width: 90%;
+        }
+    }
+    #css{
+        animation: css-fill 3s forwards;
+        animation-delay: 1s;
+    }
+
+    @keyframes css-fill {
+        100%{
+            width: 80%;
+        }
+    }
+    #javascript{
+        animation: javascript-fill 3s forwards;
+        animation-delay: 1s;
+    }
+
+    @keyframes javascript-fill {
+        100%{
+            width: 60%;
+        }
+    }
+    #git{
+        animation: git-fill 3s forwards;
+        animation-delay: 1s;
+    }
+
+    @keyframes git-fill {
+        100%{
+            width: 75%;
+        }
+    }
+    #python{
+        animation: python-fill 3s forwards;
+        animation-delay: 1s;
+    }
+
+    @keyframes python-fill {
+        100%{
+            width: 40%;
+        }
+    }
