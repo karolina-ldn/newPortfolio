@@ -468,7 +468,7 @@ img:hover{
 }
 
 #tw-img{
-    background-image: url("/images/teamwork.jpg");
+    background-image: url("../images/teamwork.jpg");
     background-size: cover;
     filter:grayscale(100%)
 }
@@ -478,7 +478,7 @@ img:hover{
 }
 
 #ps-img{
-    background-image: url("/images/problem-solving.jpg");
+    background-image: url("../images/problem-solving.jpg");
     background-size: cover;
     filter:grayscale(100%);
 }
@@ -488,7 +488,7 @@ img:hover{
 }
 
 #c-img{
-    background-image: url("/images/communication.png");
+    background-image: url("../images/communication.png");
     background-size: cover;
     filter:grayscale(100%);
 }
@@ -497,7 +497,7 @@ img:hover{
 }
 
 #tm-img{
-    background-image: url("/images/time-management.png");
+    background-image: url("../images/time-management.png");
     background-size: cover;
     filter:grayscale(100%);
 }
