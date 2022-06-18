@@ -447,6 +447,10 @@ img:hover{
     padding-left: 100px;
     padding-top: 50px;
 }
+
+#box-right-title{
+    color: var(--color-secondary);
+}
     
 .box1{
     display: flex;
