@@ -17,6 +17,7 @@
     --color-grey-04: rgb(85, 84, 84);
     --color-grey-05: rgb(63, 62, 62);
     --color-grey-06: rgb(32, 32, 32);
+    --color-grey-07: rgba(54, 52, 52, 0.342);
     --br-sm-2: 14px;
     --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
 }
@@ -316,16 +317,14 @@ img:hover{
 
 /* SKILLS SECTION */
 
-.skill
-	{
+.skill{
 		box-sizing: border-box;
 		background: #fff;
 		border-radius: 8px;
         
 		
-	}
-.level
-	{
+}
+.level{
 		
 		width: 0%;
 		height: 15px;
@@ -333,18 +332,16 @@ img:hover{
         background-color: var(--color-secondary);
         text-align: center;
 
-	}
+}
 
-    .skillbox
-	{
+.skillbox{
 		box-sizing: border-box;
 		width: 100%;
 		margin: 20px 0;
         text-align: center;
 
-	}
-	.skillbox p
-	{
+}
+.skillbox p{
 		padding: 0;
 		letter-spacing: 1px;
 		margin: 0 0;
@@ -352,78 +349,154 @@ img:hover{
 		color: #fff;
 		font-weight: bold;
        
-	}
-	.skillbox p:nth-child(2)
-	{
+}
+.skillbox p:nth-child(2){
 		float: right;
 		position: relative;
 		top: -35px;
-	}
+}
 
-    .box
-	{
+.box{
 		width: 400px;
 		position: inline-block;
-		/* top: 50%;
-		left: 50%; */
-		/* transform: translate(-50%,-50%); */
 		padding: 25px 20px;
 		box-sizing: border-box;
         box-shadow: 0px 10px 62px 9px rgba(232,202,232,1);
         border-radius: 10%;
-        margin-top: 50px;
-		/* box-shadow: 0 20px 409px rgba(0,0,0,0.5); */
-        /* background-color: var(--color-grey-05); */
-        font-size: 0.8rem;
-	}
+        margin-top: 120px;
+		font-size: 0.8rem;
+        height: fit-content;
+}
 
-    #html{
+.box h1{
+    font-size: 1.5rem;
+    
+}
+
+#html{
         animation: html-fill 3s forwards;
         animation-delay: 1s;
-    }
+}
 
-    @keyframes html-fill {
+@keyframes html-fill {
         100%{
             width: 90%;
         }
-    }
-    #css{
+}
+#css{
         animation: css-fill 3s forwards;
         animation-delay: 1s;
-    }
+}
 
-    @keyframes css-fill {
+@keyframes css-fill {
         100%{
             width: 80%;
         }
-    }
-    #javascript{
+}
+#javascript{
         animation: javascript-fill 3s forwards;
         animation-delay: 1s;
-    }
+}
 
-    @keyframes javascript-fill {
+@keyframes javascript-fill {
         100%{
             width: 60%;
         }
-    }
-    #git{
+}
+#git{
         animation: git-fill 3s forwards;
         animation-delay: 1s;
-    }
+}
 
-    @keyframes git-fill {
+@keyframes git-fill {
         100%{
             width: 75%;
         }
-    }
-    #python{
+}
+#python{
         animation: python-fill 3s forwards;
         animation-delay: 1s;
-    }
+}
 
-    @keyframes python-fill {
+@keyframes python-fill {
         100%{
             width: 40%;
         }
-    }
+}
+
+
+.about-item{
+    width: 260px;
+    height: 250px;
+    border: solid var(--color-white) 3px;
+    display: inline-block;
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+    transition: all .4s ease-in-out;
+    border-radius: 5%;
+}
+.about-item:hover{
+    border: solid 3px var(--color-secondary);
+}
+
+.box-right{
+    flex: 30%;
+    padding: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+    
+.box1{
+    display: flex;
+    flex-flow: row;
+    text-align: center;
+}
+
+.abt-text{
+    text-align: center;
+    align-items: center;
+    color: var(--color-grey-06);
+    background-color: var(--color-grey-07);
+    border-radius: 2%;
+
+}
+
+#tw-img{
+    background-image: url("/images/teamwork.jpg");
+    background-size: cover;
+    filter:grayscale(100%)
+}
+
+#tw-img:hover{
+    filter: none;
+}
+
+#ps-img{
+    background-image: url("/images/problem-solving.jpg");
+    background-size: cover;
+    filter:grayscale(100%);
+}
+
+#ps-img:hover{
+    filter: none;
+}
+
+#c-img{
+    background-image: url("/images/communication.png");
+    background-size: cover;
+    filter:grayscale(100%);
+}
+#c-img:hover{
+    filter: none;
+}
+
+#tm-img{
+    background-image: url("/images/time-management.png");
+    background-size: cover;
+    filter:grayscale(100%);
+}
+#tm-img:hover{
+    filter: none;
+}
