@@ -79,7 +79,9 @@ section{
 .sec3{
     display: none;
     transform: translateY(0) scale(1);
-    background-color: salmon;
+    font-family: 'Inknut Antiqua', serif;
+    padding:50px;
+    text-align: center;
 }
 
 .sec4{
