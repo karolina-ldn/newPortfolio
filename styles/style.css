@@ -506,13 +506,21 @@ section{
 /* ------------------------------------------PROJECTS------------------------------------------------------- */
 .thumbnail{
     width: 300px;
-    height: 200px
+    height: 200px;
+    border-radius: 5%;
+    padding: 2%;
+}
+
+.projects-box{
+    text-align: center;
+    /* margin-right: 10%; */
+    padding: 5% 5% 0% 5%;
 }
 
 
 
 /* -------------------------------------CONTACT SECTION-------------------------------------------------- */
-#mail:hover, #phone:hover, #linkedin:hover, #github:hover{
+#mail:hover, #phone-number:hover, #linkedin:hover, #github:hover{
     color: var(--color-secondary);
 }
 
