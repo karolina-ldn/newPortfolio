@@ -509,6 +509,11 @@ section{
     height: 200px;
     border-radius: 5%;
     padding: 2%;
+    transition: transform .2s;
+}
+
+.thumbnail:hover{
+    transform: scale(1.2);
 }
 
 .projects-box{
